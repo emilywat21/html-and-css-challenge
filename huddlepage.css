@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+   background: url(file:///Users/emilywillingham/Downloads/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg), radial-gradient(at top right, #5719dc, transparent),
+   radial-gradient(at bottom left, #a527dc, transparent), 
+   radial-gradient(at top left, black, transparent),
+   radial-gradient(at bottom right, black, transparent);;
+   background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: start;
+  }
+.container {
+    display: grid;
+    padding: 0px 25px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 200px 400px 100px;
+}
+.mockups {
+    grid-area: 2 / 1; 
+    align-self: end;
+}
+.item1 {
+    grid-area: 1 / 2;
+    align-self: end;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: whitesmoke;
+    width: 300px;
+}
+.item2 {
+    grid-area: 2 / 2;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: "Poppins";
+    color: whitesmoke;
+    align-self: start;
+    width: 500px;
+}
+.item4 {
+    grid-area: 2/2; 
+    align-self: start;
+}
+.button {
+    border: none;    
+    border-radius: 50px;
+    margin: 100px 0px;
+    background: rgb(237, 64, 246);
+    cursor: pointer;
+    font-family: "Poppins";
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    box-shadow: 5px 5px 10px #44196c; 
+}
+.button:hover {
+    background-color:rgb(246, 159, 251);
+    transition: all 0.3s;
+}
+footer{
+    font-family: "Poppins";
+    font-size: 12px;
+    margin-top: auto;
+    align-self: center;
+}
+#challenge {
+    color: lightgrey;
+}
+
+
+
